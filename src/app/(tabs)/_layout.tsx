@@ -5,7 +5,7 @@ import AppThemedProvider from "@/src/components/ThemedProvider";
 const _layout = () => {
   return (
     <AppThemedProvider>
-      <Text>
+      <Text className="text-red-400">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui fuga, nulla
         nobis voluptas inventore assumenda perspiciatis eius asperiores eligendi
         accusantium maiores necessitatibus delectus excepturi provident totam,
