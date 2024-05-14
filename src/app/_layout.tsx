@@ -39,9 +39,7 @@ const _layout = () => {
   return (
     <SafeAreaProvider>
       <SafeAreaView style={{ flex: 1 }}>
-        <Stack>
-          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        </Stack>
+        <Stack screenOptions={{ headerShown: false }} />
         <StatusBar style="dark" />
       </SafeAreaView>
     </SafeAreaProvider>
