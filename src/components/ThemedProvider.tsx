@@ -7,7 +7,7 @@ const AppThemedProvider = ({ children }: any) => {
   return (
     <>
       <SafeAreaView style={{ flex: 1 }}>{children}</SafeAreaView>
-      <StatusBar style="dark" />
+      {/* <StatusBar style="dark" /> */}
     </>
   );
 };
